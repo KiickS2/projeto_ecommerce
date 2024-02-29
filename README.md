@@ -27,13 +27,13 @@ JavaScript, HTML, CSS, ReactJS, Front-end
 
 ### Página Catálogo
 
-![Página Catálogo](projeto_ecommerce/public/catalogo1.png)
+![Página Catálogo](public/catalogo1.png)
 
 
 ### Página Carrinho
 
-![Página Carrinho](projeto_ecommerce/public/carrinho.png)
+![Página Carrinho](public/carrinho.png)
 
 ### Página Thank You
 
-![Página Thank You](projeto_ecommerce/public/thankyou.png)
+![Página Thank You](public/thankyou.png)
