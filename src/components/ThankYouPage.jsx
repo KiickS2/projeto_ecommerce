@@ -15,9 +15,10 @@ const ThankYouPage = () => {
 
   return (
     <div className='thank-you-page'>
+      <h3>Obrigado por comprar conosco!</h3>
       <ul>
         {items.map((item) => (
-          <li key={item.id}>{item.name} x{item.quantity} - {item.price}</li>
+          <li key={item.id}>{item.name} x{item.quantity} - {item.price.toFixed(2)}</li>
         ))}
       </ul>
       <p>Total: ${totalPrice.toFixed(2)}</p>

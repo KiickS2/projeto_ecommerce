@@ -8,7 +8,7 @@ const Product = ({product, onAddToCart}) => {
     <div className='product'>
         <img src={product.image}/>  
         <h2>{product.name}</h2>
-        <p>{product.price}</p>
+        <p>${product.price.toFixed(2)}</p>
         <div className="cart-buttons">
             <select onChange={(e) => setQuantity(parseInt(e.target.value))}>
                 {[...Array(10).keys()].map((x) => (

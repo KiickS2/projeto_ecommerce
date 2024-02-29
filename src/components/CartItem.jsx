@@ -4,7 +4,7 @@ const CartItem = ({item, onUpdateCart, onRemoveFromCart}) => {
   return (
     <div className='cart-item'>
         <h3>{item.name}</h3>
-        <p>{item.price}</p>
+        <p>${item.price.toFixed(2)}</p>
         <div className="cart-buttons">
             <input 
                 type="text" 
