@@ -9,6 +9,7 @@ const Cart = ({ cartItems, onUpdateCart, onRemoveFromCart, setCartItems }) => {
     return (
         <div>
             <h1>Carrinho</h1>
+            <div className='catalogo-line'></div>
             {cartItems.length === 0 ?
                 <p>Não há itens no carrinho</p>
                 :
